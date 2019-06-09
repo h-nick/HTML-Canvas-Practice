@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DocumentCanvas Resize</title>
+
+	<style>
+		html, body {
+			margin: 0;
+		}
+
+		canvas {
+			border: 3px solid black;
+			display: block;
+			max-width: 100%; /* To correct 100vw causing a horizontal scrollbar. */
+			box-sizing: border-box; /* To ensure the border doesn't add extra width or height. */
+		}
+	</style>
+</head>
+<body>
+	<canvas></canvas>
+	<script src="../assets/js/canvas.js"></script>
+</body>
+</html>

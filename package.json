@@ -1,0 +1,11 @@
+{
+  "name": "html-canvas-practice",
+  "version": "1.0.0",
+  "description": "HTML5 Canvas practice project.",
+  "main": "backend/server.js",
+  "author": "Nicolas H.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
