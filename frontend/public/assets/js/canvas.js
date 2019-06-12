@@ -1,3 +1,5 @@
+/* LECTURE 1 */
+
 let dpi = window.devicePixelRatio;
 let canvas = document.querySelector('canvas');
 
