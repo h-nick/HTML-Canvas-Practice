@@ -23,8 +23,8 @@ function Circle(r) {
 	this.draw = () => {
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
-		ctx.fillStyle = colors[Math.floor(Math.random() * 7)]
-		ctx.strokeStyle = colors[Math.floor(Math.random() * 7)]
+		ctx.fillStyle = "red";
+		ctx.strokeStyle = "blue";
 		ctx.stroke();
 		ctx.fill();
 		ctx.closePath();
