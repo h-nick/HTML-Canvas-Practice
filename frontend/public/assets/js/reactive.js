@@ -94,7 +94,7 @@ function Circle() {
 }
 
 const start = () => {
-	for(let i = 0; i <= 500; i++) {
+	for(let i = 0; i <= 450; i++) {
 		circles.push(new Circle());
 	}
 }
