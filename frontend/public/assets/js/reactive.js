@@ -94,7 +94,11 @@ function Circle() {
 }
 
 const start = () => {
+<<<<<<< HEAD
 	for(let i = 0; i <= 450; i++) {
+=======
+	for(let i = 0; i <= 500; i++) {
+>>>>>>> c09beca7293da55d415ff9560cf165fcb64807cb
 		circles.push(new Circle());
 	}
 }
